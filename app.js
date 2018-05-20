@@ -12,10 +12,10 @@ var fs = require('fs')
   , log = new Log('debug', fs.createWriteStream(__dirname + '/emails.log'));
   
 var sequalize = new Sequalize(
-    'prod2',
-    'myjobsdbadmin',
-    'pass1432', {
-        host: 'myjobsprod.c6x3vbsiiokl.ap-southeast-1.rds.amazonaws.com',
+    'xxx',
+    'xxx',
+    'xxx', {
+        host: 'xxx',
         dialect: 'postgres',
         port: '5432',
         define: {
